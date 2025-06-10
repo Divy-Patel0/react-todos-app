@@ -20,15 +20,21 @@ const Addtodo = ({ todosData, setTodosData }) => {
     return (
         <>
             <div className='sticky top-0 bg-gray-100 z-10 pb-4'>
-                <div className="flex">
+                <div className="flex flex-col sm:flex-row gap-2">
                     <input
                         type="text"
                         name='addtask'
                         placeholder='Enter task'
-                        className="border-2 rounded-md h-8 w-xl"
+                        className="border-2 rounded-md h-10 w-full px-2"
                         onChange={e => setTask(e.target.value)}
                     />
-                    <button type="submit" className=' ml-1 border-2 border-blue-600 rounded-full p-1 h-8 w-20 text-center' onClick={() => addTask(task)}>Add</button>
+                    <button
+                        type="submit"
+                        className='border-2 border-blue-600 rounded-4xl p-2 h-10 w-full sm:w-20 text-center'
+                        onClick={() => addTask(task)}
+                    >
+                        Add
+                    </button>
                 </div>
             </div>
         </>

@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <div className='min-h-screen w-full bg-gray-100 flex justify-center items-start'>
-        <div className="w-full max-w-xl p-4">
+        <div className="w-full max-w-xl p-2 sm:p-4">
           <Addtodo todosData={todosData} setTodosData={setTodosData} />
           <Todo todosData={todosData} setTodosData={setTodosData} />
         </div>
