@@ -29,3 +29,4 @@ A simple and efficient To-Do application built with [Vite](https://vitejs.dev/),
 
 3.Start the development server:
    npm run dev
+   ```
