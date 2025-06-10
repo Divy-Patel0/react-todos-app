@@ -25,8 +25,10 @@ A simple and efficient To-Do application built with [Vite](https://vitejs.dev/),
    cd react-todos-app/client
 
 2. Install dependencies:
+   ```sh
    npm install
 
 3.Start the development server:
+  ```sh
    npm run dev
-   ```
+  
